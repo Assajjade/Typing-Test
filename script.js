@@ -142,3 +142,7 @@ function endTest() {
 restartButtonEl.addEventListener("click", renderNewQuote);
 
 renderNewQuote();
+
+textDisplayEl.addEventListener("click", () => {
+    textInputEl.focus();
+});
